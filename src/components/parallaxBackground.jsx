@@ -6,7 +6,7 @@ const ParallaxBackground = () => {
   const parallax3Y = useTransform(x, [0, 0.5], ["0%", "70%"]);
   // const parallax2Y = useTransform(x, [0, 0.5], ["0%", "40%"]);
   const parallax1Y = useTransform(x, [0, 0.5], ["0%", "20%"]);
-
+  //update
   return (
     <section className="absolute inset-0">
       <div className="relative h-screen overflow-y-hidden">
