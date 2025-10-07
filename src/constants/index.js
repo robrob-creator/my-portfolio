@@ -1,5 +1,3 @@
-import { i } from "motion/react-client";
-
 export const myProjects = [
   {
     id: 1,
