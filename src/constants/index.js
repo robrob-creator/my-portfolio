@@ -1,3 +1,5 @@
+import { i } from "motion/react-client";
+
 export const myProjects = [
   {
     id: 1,
@@ -66,6 +68,50 @@ export const myProjects = [
       },
     ],
     demoUrl: "https://appetize.io/embed/b_5wtyh7oqxs6aguvk4wxr4fzwdu",
+  },
+  {
+    id: 8,
+    title: "Paraphraser — Next.js + NestJS",
+    description:
+      "Paraphraser tool with a Next.js frontend and a NestJS backend that uses a RapidAPI paraphrasing service and a deterministic fallback when the external API fails.",
+    subDescription: [
+      "Built a Next.js frontend that connects to a NestJS backend API.",
+      "Backend integrates with RapidAPI (rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com) and falls back to a lightweight deterministic paraphraser when needed.",
+      "Designed to preserve important phrases and provide a consistent fallback to avoid incorrect substitutions.",
+      "Frontend deployed to Netlify (live demo) and backend is hosted on Render",
+    ],
+    href: "https://paraphraser-me.netlify.app/",
+    logo: "",
+    image: "/assets/projects/paraphraser.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 4,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 2,
+        name: "NestJS",
+        path: "/assets/logos/nestjs.svg",
+      },
+      {
+        id: 3,
+        name: "RapidAPI",
+        path: "/assets/logos/api.svg",
+      },
+    ],
+    demoUrl: "https://paraphraser-me.netlify.app/",
+    communityUrl: "",
   },
 ];
 
